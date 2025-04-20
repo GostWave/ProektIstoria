@@ -1,4 +1,5 @@
-from Import_data import Data_import
+import Import_data
 
-imp=Data_import()
-print(imp.getquestions())
+
+
+print(Import_data.getquestions())
