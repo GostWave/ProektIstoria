@@ -8,4 +8,5 @@ for i in Import_data.getquestions_yes_no():
 for i in Import_data.getquestions_with_img():
     image_path= str(i["Картинка"])
     img = Image.open(image_path)
+    print(i)
     img.show()
