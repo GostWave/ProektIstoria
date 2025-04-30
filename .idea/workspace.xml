@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316dae21-1c6a-4946-b793-da3817866f8d" name="Changes" comment="Add topic of question">
-      <change afterPath="$PROJECT_DIR$/Data2.csv" afterDir="false" />
+    <list default="true" id="316dae21-1c6a-4946-b793-da3817866f8d" name="Changes" comment="Add function getquestions_with_choice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Import_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Import_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuestionManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionManager.py" afterDir="false" />
     </list>
@@ -150,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745183237208</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add function getquestions_with_choice">
+      <option name="closed" value="true" />
+      <created>1745789132916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745789132916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -159,6 +165,7 @@
     <MESSAGE value="Changes" />
     <MESSAGE value="Import images" />
     <MESSAGE value="Add topic of question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add topic of question" />
+    <MESSAGE value="Add function getquestions_with_choice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add function getquestions_with_choice" />
   </component>
 </project>
