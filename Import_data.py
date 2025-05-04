@@ -15,8 +15,7 @@ def getquestions_yes_no(topic, questionNumber):
     df["Тема"] = df["Тема"].ffill()
 
     # limited_df = df.iloc[]
-    if topic == 1: topic = "Первая мировая война"
-    if topic == 2: topic = "Вторая мировая война"
+
 
     # Заполнение вопросами с ответами да или нет
 
@@ -41,8 +40,7 @@ def getquestions_with_img(topic, questionNumber):
     else:
         limited_df = df.iloc[30:31]
 
-    if topic == 1: topic = "Первая мировая война"
-    if topic == 2: topic = "Вторая мировая война"
+
 
     questions_with_img = tuple(
         {"Тема": row["Тема"], "Номер вопроса": int(row["Номер вопроса"]), "Вопрос": row["Вопрос"],
@@ -64,8 +62,7 @@ def getquestions_open(topic, questionNumber):
 
     # limited_df = df.iloc[]
 
-    if topic == 1: topic = "Первая мировая война"
-    if topic == 2: topic = "Вторая мировая война"
+
 
     questions_open = tuple(
         {"Тема": row["Тема"], "Номер вопроса": int(row["Номер вопроса"]), "Вопрос": row["Вопрос"],
@@ -78,11 +75,13 @@ def getquestions_open(topic, questionNumber):
 
 
 def get_five_questions(type):
-    questions_1 = (random.choice(getquestions_yes_no(1, 1)),)
-    questions_2 = (random.choice(getquestions_yes_no(1, 2)),)
-    questions_3 = (random.choice(getquestions_with_img(1, 3)),)
-    questions_4 = (random.choice(getquestions_with_img(1, 4)),)
-    questions_5 = (random.choice(getquestions_open(1, 5)),)
+    if type == 1: type = "Первая мировая война"
+    if type == 2: type = "Вторая мировая война"
+    questions_1 = (random.choice(getquestions_yes_no(type, 1)),)
+    questions_2 = (random.choice(getquestions_yes_no(type, 2)),)
+    questions_3 = (random.choice(getquestions_with_img(type, 3)),)
+    questions_4 = (random.choice(getquestions_with_img(type, 4)),)
+    questions_5 = (random.choice(getquestions_open(type, 5)),)
     questions = questions_1 + questions_2 + questions_3 + questions_4 + questions_5
     return questions
 

@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316dae21-1c6a-4946-b793-da3817866f8d" name="Changes" comment="Add function get_five">
-      <change afterPath="$PROJECT_DIR$/Data3.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Import_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Import_data.py" afterDir="false" />
-    </list>
+    <list default="true" id="316dae21-1c6a-4946-b793-da3817866f8d" name="Changes" comment="realized get_five_questions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746024933564</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="realized get_five_questions">
+      <option name="closed" value="true" />
+      <created>1746358260182</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746358260182</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,6 +179,7 @@
     <MESSAGE value="Add topic of question" />
     <MESSAGE value="Add function getquestions_with_choice" />
     <MESSAGE value="Add function get_five" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add function get_five" />
+    <MESSAGE value="realized get_five_questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="realized get_five_questions" />
   </component>
 </project>
