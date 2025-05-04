@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316dae21-1c6a-4946-b793-da3817866f8d" name="Changes" comment="Add function getquestions_with_choice">
+    <list default="true" id="316dae21-1c6a-4946-b793-da3817866f8d" name="Changes" comment="Add function get_five">
+      <change afterPath="$PROJECT_DIR$/Data3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img_11.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Import_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Import_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestionManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuestionManager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Import_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.QuestionManager.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testimg.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/galki/PycharmProjects/ProektIstoria&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Import_data.executor": "Run",
+    "Python.QuestionManager.executor": "Run",
+    "Python.testimg.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/galki/PycharmProjects/ProektIstoria"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\galki\PycharmProjects\ProektIstoria" />
@@ -156,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745789132916</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add function get_five">
+      <option name="closed" value="true" />
+      <created>1746024933564</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746024933564</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,6 +175,7 @@
     <MESSAGE value="Import images" />
     <MESSAGE value="Add topic of question" />
     <MESSAGE value="Add function getquestions_with_choice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add function getquestions_with_choice" />
+    <MESSAGE value="Add function get_five" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add function get_five" />
   </component>
 </project>
