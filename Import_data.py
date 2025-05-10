@@ -36,7 +36,7 @@ def getquestions_with_img(topic, questionNumber):
     df["Номер вопроса"] = df["Номер вопроса"].ffill()
     df["Тема"] = df["Тема"].ffill()
     if questionNumber ==3:
-        limited_df = df.iloc[20:22]
+        limited_df = df.iloc[20:30]
     else:
         limited_df = df.iloc[30:31]
 

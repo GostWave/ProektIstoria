@@ -10,5 +10,9 @@ from PIL import Image
     # image_path = str(i["Картинка"])
     # img = Image.open(image_path)
     # img.show()
-print(Import_data.get_five_questions(1))
+q=Import_data.get_five_questions(1)
+p=str(q[2]["Картинка"])
+im=Image.open(p)
+im.show()
+print(q)
 
