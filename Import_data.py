@@ -35,10 +35,7 @@ def getquestions_with_img(topic, questionNumber):
     df = pd.read_csv(file_path)
     df["Номер вопроса"] = df["Номер вопроса"].ffill()
     df["Тема"] = df["Тема"].ffill()
-    if questionNumber ==3:
-        limited_df = df.iloc[20:30]
-    else:
-        limited_df = df.iloc[30:31]
+
 
 
 
@@ -46,9 +43,9 @@ def getquestions_with_img(topic, questionNumber):
         {"Тема": row["Тема"], "Номер вопроса": int(row["Номер вопроса"]), "Вопрос": row["Вопрос"],
          "Картинка": row["Картинка"], "Ответ": str(row["Ответ"]).split("/"),
          "Неверные ответы": str(row["Неверные ответы"]).split(", ")}
-        for _, row in limited_df.iterrows()
-        if pd.notna(row["Вопрос"]) and pd.notna(row["Ответ"]) and pd.notna(row["Неверные ответы"])  and os.path.exists(
-            row["Картинка"]) and int(row["Номер вопроса"]) == questionNumber and (str(row["Тема"]) == topic)
+        for _, row in df.iterrows()
+        if pd.notna(row["Вопрос"]) and pd.notna(row["Ответ"]) and pd.notna(row["Неверные ответы"]) and
+        int(row["Номер вопроса"]) == questionNumber and (str(row["Тема"]) == topic) and os.path.exists(row["Картинка"])
     )
     return questions_with_img
 
