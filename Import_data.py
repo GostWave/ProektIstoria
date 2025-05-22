@@ -6,7 +6,7 @@ from sys import audit
 
 def getquestions_yes_no(topic, questionNumber):
     import pandas as pd
-    file_path = "Data3.csv"
+    file_path = "Data.csv"
 
     # Считывание базы вопросов
 
@@ -31,7 +31,7 @@ def getquestions_yes_no(topic, questionNumber):
 
 def getquestions_with_img(topic, questionNumber):
     import pandas as pd
-    file_path = "Data3.csv"
+    file_path = "Data.csv"
     df = pd.read_csv(file_path)
     df["Номер вопроса"] = df["Номер вопроса"].ffill()
     df["Тема"] = df["Тема"].ffill()
@@ -52,7 +52,7 @@ def getquestions_with_img(topic, questionNumber):
 
 def getquestions_open(topic, questionNumber):
     import pandas as pd
-    file_path = "Data3.csv"
+    file_path = "Data.csv"
     df = pd.read_csv(file_path)
     df["Номер вопроса"] = df["Номер вопроса"].ffill()
     df["Тема"] = df["Тема"].ffill()
